@@ -1,0 +1,110 @@
+h1{
+	background: blue;
+	font-size: 250%;
+  color:black;
+  margin-right:10%;
+  margin-left:10%;
+  margin-top:0;
+}
+header{
+	text-align: center;
+  padding:15px;
+}
+
+/*Link clicking and decoration*/
+#Links{
+	font-family: Arial,"Time New Roman",serif; 
+	font-style: normal;
+	font-size: 200%;
+  text-align:center;
+  
+}
+a{
+  display:inline-block;
+  font-weight:bold;
+  color:blue;
+  background:rgb(202, 135, 162);
+  margin:0 auto;
+  text-decoration:none;
+  font-style: normal;
+  padding:4px;
+  border: 3px solid black;
+  
+}
+/*activated by  mouse */
+a:hover{
+  background:rgb(202, 251, 162);
+  color: black;
+}
+/*activated with the keyboard*/
+a:focus{
+  background:rgb(182, 189, 76);
+  color :pink;
+}
+/*has been visited*/
+a:visited{
+  background:rgb(182, 189, 208);
+  color:orange;
+}
+/*is being clicked*/
+a:active{
+  background:rgb(105, 135, 208);
+  color:brown;
+}
+/*background and font size for body*/
+body{
+  background: rgb(255, 255, 141);
+  margin:5%;
+  font-size:100%;
+}
+section{
+  display: inline-block;
+  width:28%;
+  float:left;
+  margin-right:2%;
+  border: 3px solid black;
+  padding:5px;
+  margin-top:20px;
+}
+/*decorating the list*/
+ul{
+  list-style-type:square;
+}
+ol{
+  list-style-type:upper-roman;
+}
+footer{
+  clear:left;
+  background:rgb(90, 119, 173);
+  margin:2%;
+  margin-top:25%;
+  font-style:italic;
+  font-size:150%;
+}
+img{
+  width:100px;
+  height:80px;
+}
+details{
+	font-style: italic;
+  color:red;
+
+}
+summary{
+	font-style: normal;
+  color:black;
+}
+.chicken{
+	color: red;
+}
+.food {
+	background: rgb(90, 197, 173);
+	color: rgb(189, 104, 173);
+}
+#More_about_me{
+  background: pink;
+}
+/*style the image*/
+footer img{
+   border: 3px solid #000000;
+}
