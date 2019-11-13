@@ -1,0 +1,7 @@
+.col-sm-3,.col-sm-5,.col-xs-3,.col-xs-5{
+	background-color: red;
+	font-size: 100%;
+	margin: 1%;
+	padding:1%;
+	border: 1px solid black;
+}
