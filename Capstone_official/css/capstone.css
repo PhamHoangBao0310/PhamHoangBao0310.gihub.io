@@ -58,6 +58,6 @@ header{
 }
 @media only screen and (max-width: 600px) {
   h1{
-    display: none;
+    visibility: hidden;
   }
 }
