@@ -56,3 +56,8 @@ header{
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+@media screen and (max-width: 600px) {
+  h1{
+    display: block;
+  }
+}
