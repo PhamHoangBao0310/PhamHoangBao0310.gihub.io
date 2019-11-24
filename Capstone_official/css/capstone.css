@@ -61,3 +61,12 @@ header{
     visibility: hidden;
   }
 }
+footer{
+  text-align: center;
+  color: #fff;
+  font-family: monospace;
+  font-size: 200%;
+}
+footer a{
+  color: black;
+}
