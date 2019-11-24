@@ -58,6 +58,6 @@ header{
 }
 @media screen and (max-width: 600px) {
   h1{
-    display: block;
+    display: none;
   }
 }
